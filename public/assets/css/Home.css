@@ -1,0 +1,161 @@
+a {
+    text-decoration: none;
+    color: #fff;
+}
+nav {
+    background-color: #fff;
+    height: 58px;
+}
+.header-button {
+    box-sizing: border-box;
+    background-color: #04AA6D;
+    border-radius: 10px;
+    margin: 4px 10px;
+    width: auto;
+    height: 50px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Brush Script MT', cursive;
+    padding: 15px 30px;
+}
+.float-right {
+    float: right;
+}
+.header-button:hover {
+    color: #f00000;
+    background-color: #F0E68C;
+}
+.welcome-text {
+    box-sizing: border-box;
+    display: block;
+    color: #000;
+    font-size: 25px;
+    font-family: 'Brush Script MT', cursive;
+    height: 58px;
+    width: 300px;
+    padding: 15px 30px;
+}
+.menu {
+    background-color: #282A35;
+    height: 40px;
+}
+.user-account {
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin: 8px 10px 0 10px;
+}
+.menu ul li {
+    box-sizing: border-box;
+    width: auto;
+    height: 40px;
+    color: #fff;
+    padding: calc( (40px - 1em) / 2) 30px;
+    position: relative;
+}
+.left-menu li {
+    float: left;
+}
+.right-menu li {
+    float: right;
+}
+.dropdown {
+    background-color: #282A35;
+    padding: 10px 0;
+    position: absolute; /*WITH RESPECT TO PARENT*/
+    display: none;
+    border-radius: 8px;
+    top: 100%;
+}
+.menu a {
+    color: #fff;
+}
+.menu ul li:hover {
+    background-color: #000;
+}
+.menu ul li:hover .dropdown {
+    display: block;
+}
+.body {
+    height: 500px;
+    background-color: #fff;
+}
+footer {
+    height: 300px;
+    background-color: #3d4051;
+    position: relative;
+}
+.enamad {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    left: 30px;
+}
+.useful-links {
+    position: absolute;
+    left: 450px;
+    top: 120px;
+    display: flex;
+    padding: 10px;
+    border: 1px dashed #fff;
+
+}
+.useful-links a {
+    padding: 20px;
+    font-size: 15px;
+}
+.useful-links legend {
+    color: #fff;
+    padding: 0 10px;
+    text-align: center;
+}
+.copy-right {
+    position: absolute;
+    bottom: 30px;
+    right: 70px;
+}
+.copy-right-text , .copy-right a {
+    color: #fff;
+    font-size: 0.9em;
+}
+.social-networks {
+    position: absolute;
+    transform: translateY(50%);
+    bottom: 35px;
+    left: 40px;
+}
+.social-networks img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+.inform {
+    padding: 40px 40px 0 0;
+    float: right;
+}
+.inform label {
+    color: #fff;
+}
+.inform input[type=email] {
+    height: 40px;
+    width: 200px;
+    font-size: 0.9em;
+    padding: 0 20px;
+    border-radius: 5px 0 0 5px;
+}
+.inform input[type=email]:focus {
+    background-color: rgba(200, 250, 0, 0.99);
+    outline: none;
+}
+.inform input[type=submit] {
+    width: 60px;
+    height: 44px;
+    text-align: center;
+    background-color: #ff8800;
+    border-radius: 0 5px 5px 0;
+}
+.inform input {
+    border: 2px solid #ff8800;
+    margin: 0;
+    float: left;
+}
